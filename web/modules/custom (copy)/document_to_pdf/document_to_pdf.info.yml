@@ -1,0 +1,5 @@
+name: 'Document to PDF'
+type: module
+description: 'Converts various document formats to PDF using PhpWord.'
+package: Custom
+core_version_requirement: ^10

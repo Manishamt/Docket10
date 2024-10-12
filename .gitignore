@@ -1,0 +1,7 @@
+# Ignore composer managed files
+drush/contrib
+vendor
+web/core
+web/libraries
+web/modules/contrib
+web/themes/contrib

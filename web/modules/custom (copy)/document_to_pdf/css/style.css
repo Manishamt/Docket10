@@ -1,0 +1,28 @@
+/* .fieldset.field-group-fieldset.group-pdfs {
+    display: none;
+  } */
+  /* CSS to hide the page title block for anonymous users */
+ #block-olivero-page-title {
+  display: none;
+}
+.field--name-body {
+  /* display: none; */
+}
+.node--type-docket-item .node__content{
+  display: none;
+}
+.node--type-docket-item .node__meta{
+  display: none;
+}
+#edit-field-docksub-attachment-uid-wrapper {
+  display: none;
+}
+#edit-field-docksub-attachment-created-wrapper{
+  display: none;
+}
+#edit-field-docksub-attachment-path-wrapper{
+  display: none;
+}
+#edit-field-docksub-attachment-status-wrapper{
+  display: none;
+}
