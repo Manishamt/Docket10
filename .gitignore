@@ -5,3 +5,35 @@ web/core
 web/libraries
 web/modules/contrib
 web/themes/contrib
+web/profiles/contrib
+
+# Ignore Drupal files
+web/sites/*/files
+
+# Ignore local Drupal configuration
+settings.local.php
+settings.ddev.php
+web/sites/default/default.services.yml
+web/sites/default/default.settings.php
+
+# Ignore test output
+web/sites/simpletest
+.phpunit.result.cache
+
+# Ignore Node files
+node_modules
+package-lock.json
+npm-debug.log
+
+# Ignore symlinked eslint files
+.prettierignore
+.prettierrc.json
+
+# IDE
+.idea
+.DS_Store
+.editorconfig
+.gitattributes
+
+# Ignore DDEV unless explcitly added
+.ddev
